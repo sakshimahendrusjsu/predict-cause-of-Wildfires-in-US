@@ -1,5 +1,9 @@
 # Predicting Causes of Wildfires in US
 
+### Objective 
+This project intends to analyze the “Spatial wildfire occurrence data for the United States” https://www.fs.usda.gov/rds/archive/catalog/RDS-2013-0009.4 with data ranging from 1992-2015. Implement necessary data pre-processing and exploration techniques, apply various classification and regression models to predict the causes for wildfires. Compare and evaluate the performance of the models. Also, improve the accuracy of the predictions using tuning and validation methods.
+
+
 ### Data Preprocessing and Exploratory Data Analysis (EDA)
 
 We started with a handful of features in the beginning primarily based on date and location. 
@@ -27,4 +31,9 @@ To solve this problem, we divided the data into two causes:
 Dropped miscellaneous/undefined and missing causes
 This helped us achieve better results across different classification models.
 We were finally able to achieve 85% accuracy.
+
+### Data Flow Diagram
+
+![classification_modelling](/classification_modelling.png)
+
 
