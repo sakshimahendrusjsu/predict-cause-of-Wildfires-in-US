@@ -45,3 +45,10 @@ We were finally able to achieve 85% accuracy.
 3) Please download "RDS-2013-0009.4_SQLITE.zip" from link: https://www.fs.usda.gov/rds/archive/Catalog/RDS-2013-0009.4/. The data format is Sqlite.
 4) Unzip the folder and place it parallel to the notebook, else update the path in the notebook:
       ``` conn = sqlite3.connect('RDS-2013-0009.4_SQLITE/Data/FPA_FOD_20170508.sqlite') ```
+      
+EDA:
+We carried out indvidual exploratory data analysis too. Please check the following files for more details
+1) Descision Tree Classifcation : descisionTreeClassifier.ipynb
+2) Random Firest Classification : random forest classifier (1).ipynb
+3) KNN Classification : KNN Classifier_83.88accuracy.ipynb
+4) LogisticRegression : wildfire_prediction_with_logistic_regression.ipynb
