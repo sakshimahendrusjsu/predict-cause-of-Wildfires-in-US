@@ -13,11 +13,11 @@ Other columns were mostly reference id columns FOD_ID, FPA_ID, REPORTING ID or F
 
 We split the training and test dataset into 80:20 ratio to perform different classification.
 We applied following data classification methods on our training dataset:
-\* Decision tree
-\* Random Forests
-\* AdaBoost
-\* K-NN Classification
-\* Logistic regression
+* Decision tree
+* Random Forests
+* AdaBoost
+* K-NN Classification
+* Logistic regression
 
 After performing the data analysis using confusion matrix , we found that some of the causes had less count while other causes like debris had larger counts. Due to this, it was difficult to find the cause as the model lacked enough information to pivot towards them.
 This resulted in accuracy of 65% across models.
