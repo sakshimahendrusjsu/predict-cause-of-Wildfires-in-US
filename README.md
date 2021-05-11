@@ -39,3 +39,9 @@ We were finally able to achieve 85% accuracy.
 ![classification_modelling](/classification_modelling.png)
 
 
+### Steps
+1) Please refer Notebook -> Classifiers_combined_final.ipynb
+2) We ran our respective models on a combined dataset and evaluated using kfold cross validation
+3) Please download "RDS-2013-0009.4_SQLITE.zip" from link: https://www.fs.usda.gov/rds/archive/Catalog/RDS-2013-0009.4/. The data format is Sqlite.
+4) Unzip the folder and place it parallel to the notebook, else update the path in the notebook:
+      ``` conn = sqlite3.connect('RDS-2013-0009.4_SQLITE/Data/FPA_FOD_20170508.sqlite') ```
