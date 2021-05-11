@@ -49,6 +49,6 @@ We were finally able to achieve 85% accuracy.
 EDA:
 We carried out indvidual exploratory data analysis too. Please check the following files for more details
 1) Descision Tree Classifcation : descisionTreeClassifier.ipynb
-2) Random Firest Classification : random forest classifier (1).ipynb
+2) Random Firest Classification : random_forest_final.ipynb
 3) KNN Classification : KNN Classifier_83.88accuracy.ipynb
 4) LogisticRegression : wildfire_prediction_with_logistic_regression.ipynb
