@@ -13,6 +13,8 @@ This included columns:
 
 Other columns were mostly reference id columns FOD_ID, FPA_ID, REPORTING ID or FIRE_NAMES which overlapped with other columns and could be avoided.
 
+Additional feature scaling and reducing techniques were applied
+
 ### Methods Followed
 
 We split the training and test dataset into 80:20 ratio to perform different classification.
