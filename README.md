@@ -1,4 +1,4 @@
-# predict-cause-of-Wildfires-in-US
+# Predicting Causes of Wildfires in US
 
 ### Data Preprocessing and Exploratory Data Analysis (EDA)
 
@@ -22,8 +22,8 @@ We applied following data classification methods on our training dataset:
 After performing the data analysis using confusion matrix , we found that some of the causes had less count while other causes like debris had larger counts. Due to this, it was difficult to find the cause as the model lacked enough information to pivot towards them.
 This resulted in accuracy of 65% across models.
 To solve this problem, we divided the data into two causes:
-Natural Causes
-Human Causes
+* Natural Causes
+* Human Causes
 Dropped miscellaneous/undefined and missing causes
 This helped us achieve better results across different classification models.
 We were finally able to achieve 85% accuracy.
